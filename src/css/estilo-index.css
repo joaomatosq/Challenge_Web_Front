@@ -1,0 +1,6 @@
+/*Remove o estilo padrão que os navegadores aplicam, layout começa neutro */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
