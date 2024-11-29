@@ -17,12 +17,67 @@ body {
     align-items: center;
     width: 400px;
     height: auto;
-    padding-left: 30px;
+    padding-left: 10px;
 }
 .image-logo {
    width: 400px;
    height: auto;
 }
+
+
+.barra-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    background-color: #0059A8;
+}
+
+.barra-menu a {
+   text-decoration: none;
+   font-family: serif;
+   font-size: 1.5rem;
+   color: #EAECE9;
+}
+
+.instagram-logo-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.instagram-logo {
+    width: 30px;
+    height: 30px;
+}
+
+.youtube-logo-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.youtube-logo {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -38,17 +93,18 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(250, 235, 215, 0.363);
+    background-color: #eaece98e;
     border-radius: 30px;
     padding: 10px;
     line-height: 12px;
+    font-family: serif;
 }
 
 .displayChamada h1 {
-    color: red;
-    font-size: xx-large;
+    color: #0C419A;
+    font-size: 2rem;
 }
 
 .displayChamada p {
-    font-size: xx-large;
+    font-size: 2rem;
 }
