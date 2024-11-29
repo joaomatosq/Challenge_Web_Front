@@ -30,7 +30,9 @@ body {
     flex-direction: row;
     justify-content: center;
     gap: 40px;
-    background-color: #0059A8;
+    background-color: #005aa8d7;
+    border-radius: 60px;
+    width: 800px;
 }
 
 .barra-menu a {
@@ -62,23 +64,12 @@ body {
     height: 30px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 .senha-container {
