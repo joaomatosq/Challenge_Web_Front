@@ -1,6 +1,54 @@
-/*Remove o estilo padrão que os navegadores aplicam, layout começa neutro */
-* {
+body {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    padding: 0; 
+    height: 100vh;
+    background-image: url(../assets/background-image.jpg); 
+    background-size: cover; 
+    background-position: initial; 
+    position: auto;
+    background-repeat: no-repeat; 
+}
+
+/* editando a logo*/
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: auto;
+    padding-left: 30px;
+}
+.image-logo {
+   width: 400px;
+   height: auto;
+}
+
+
+
+.senha-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.displayChamada {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(250, 235, 215, 0.363);
+    border-radius: 30px;
+    padding: 10px;
+    line-height: 12px;
+}
+
+.displayChamada h1 {
+    color: red;
+    font-size: xx-large;
+}
+
+.displayChamada p {
+    font-size: xx-large;
 }
