@@ -25,6 +25,7 @@ body {
 }
 
 
+/*Estilizando o header*/
 .barra-menu {
     display: flex;
     flex-direction: row;
@@ -72,30 +73,41 @@ body {
 }
 
 
-.senha-container {
+/*Estilizando o menu das senhas*/
+.menu-container {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    margin-top: 40px;
 }
 
-.displayChamada {
+.menu-conteudo { 
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #eaece98e;
-    border-radius: 30px;
-    padding: 10px;
-    line-height: 12px;
-    font-family: serif;
-}
-
-.displayChamada h1 {
-    color: #0C419A;
+    flex-direction: row;
+    gap: 50px;
     font-size: 2rem;
 }
 
-.displayChamada p {
-    font-size: 2rem;
+.area-paciente {
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    align-items: center;
+    line-height: 1px;
+    background-color: aquamarine;
+    height: 300px;
+    width: 300px;
+    border-radius: 50px;
 }
+
+.area-funcionario {
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    align-items: center;
+    line-height: 1px;
+    background-color: aquamarine;
+    height: 300px;
+    width: 300px;
+    border-radius: 50px;
+}
+
