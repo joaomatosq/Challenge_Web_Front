@@ -18,11 +18,16 @@ function alterarSenhaPaciente() {
 
     //Região na qual futuramente poderá ser feito uma automatização 
     //para os funcionários colocarem a próxima senha e sala.
+
+    var audio = new Audio("/src/assets/audio-alerta.mp3");
+    audio.play();
+
     var senhaFuncionario = 12;
     if(valorSenha == senhaFuncionario) {
         document.body.innerHTML = `
             <div id="mensagem-centralizada">
                 <h1>Compareça à sala [ ] </h1>
+                <img src="./src/assets/">
             </div>
         `;
         document.body.style.cssText = `
@@ -34,6 +39,10 @@ function alterarSenhaPaciente() {
             font-family: serif;
             color: #FD000D;
         `;
+
+
+
+
     }
 
 }
