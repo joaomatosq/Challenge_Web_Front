@@ -9,18 +9,16 @@ function alterarSenhaPaciente() {
     var valorSenha = parseInt(senhaPaciente, 10);
 
     if (valorSenha > 1000) {
-        alert("Digite um número menor que 1000!");
+        alert("Digite um número menor que 1000");
+        return; 
     } else {
         document.getElementById("painel-paciente").innerText = valorSenha;
     }
 
-
+    
 
     //Região na qual futuramente poderá ser feito uma automatização 
     //para os funcionários colocarem a próxima senha e sala.
-
-    var audio = new Audio("/src/assets/audio-alerta.mp3");
-    audio.play();
 
     var senhaFuncionario = 12;
     if(valorSenha == senhaFuncionario) {
@@ -40,8 +38,10 @@ function alterarSenhaPaciente() {
             color: #FD000D;
         `;
 
-
-
+        //Áudio para auxiliar o cliente 
+        var audio = new Audio("/src/assets/audio-alerta.mp3");
+        audio.play();
+    
 
     }
 
