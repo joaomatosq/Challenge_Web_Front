@@ -27,7 +27,7 @@ function alterarSenhaPaciente() {
         document.body.innerHTML = `
             <div id="mensagem-centralizada">
                 <h1>Compareça à sala [ ] </h1>
-                <img src="./src/assets/">
+                <img src="./src/assets/audio-logo.svg" width="40px" height="40px">
             </div>
         `;
         document.body.style.cssText = `
