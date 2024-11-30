@@ -94,7 +94,7 @@ body {
     align-items: center;
     line-height: 1px;
     background-color: aquamarine;
-    height: 300px;
+    height: 200px;
     width: 300px;
     border-radius: 50px;
 }
@@ -106,8 +106,23 @@ body {
     align-items: center;
     line-height: 1px;
     background-color: aquamarine;
-    height: 300px;
+    height: 200px;
     width: 300px;
     border-radius: 50px;
 }
 
+#input-paciente {
+    margin-top: 30px;
+}
+
+#input-funcionario {
+    margin-top: 30px;
+}
+
+#botao-paciente {
+    margin-top: 10px;
+}
+
+#botao-funcionario {
+    margin-top: 10px;
+}
