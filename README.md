@@ -19,10 +19,10 @@
 
 ## Links:
 
-Link para o GitHub:
+Link para o GitHub: https://github.com/joaomatosq/Challenge_Web_Front
 
-Link para o GitPages:
+Link para o GitPages: https://joaomatosq.github.io/Challenge_Web_Front/
 
-
+## Considerações finais:
 A página consiste em um ambiente dinâmico para que os clientes do hospital Sabará possam ver suas senhas de chamada com maior facilidade, diretamente do navegador web pelo celular. 
 A solução de um Painel de Chamada Remoto representa uma implementação simples e eficaz, sem custos excessivos e sem instalações complexas. Ela resolve as dores dos acompanhantes de paciente infantis, além de promover uma melhoria tecnológica e organizacional no Hospital Infantil Sabará.
