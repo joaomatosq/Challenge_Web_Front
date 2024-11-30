@@ -34,13 +34,13 @@
         <section class="menu-conteudo">
             <section class="area-paciente">
                 <h1>Sua senha:</h1>
-                <a>0003</a>
-                <input id="input-paciente" type="number" placeholder="Digite a sua senha">
-                <button id="botao-paciente">confirmar</button>
+                <a id="painel-paciente">-</a>
+                <input id="input-paciente" type="number" placeholder="Digite a sua senha" max="1000">
+                <button id="botao-paciente" onclick="alterarSenhaPaciente()">confirmar</button>
             </section>
             <section class="area-funcionario">
                 <h1>Senha atual:</h1>
-                <a>0012</a>
+                <a id="painel-funcionario">12</a>
                 <input id="input-funcionario" type="text" placeholder="Área administrativa" readonly>
                 <button id="botao-funcionario">confirmar</button>
             </section>
