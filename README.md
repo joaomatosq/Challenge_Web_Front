@@ -1,4 +1,4 @@
-# Bem vindos ao Grupo Moskitto GS 🦟
+# Bem vindos ao Grupo Moskitto 🦟
 # Challenge - Web Development e Front-end Design 
 
 # Painel Remoto para o Hospital Infantil Sabará
